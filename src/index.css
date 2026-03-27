@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+@theme { 
+    --font-display: "Source Code Pro", monospace;
+    --color-green1-cus: #84B179;
+    --color-green2-cus: #A2CB8B;
+    --color-brown1-cus: #F2E3BB;
+    --color-green3-cus: #005F02;
+    --color-green4-cus: #427A43;
+    --color-green5-cus: #C3CC9B
+}
