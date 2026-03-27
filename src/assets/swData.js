@@ -3,7 +3,7 @@ const quizData = [
     {
         id: 1,
         qName: "Seatwork 1",
-        img: "/public/images/placeholder.jpg",
+        img: "/images/placeholder.jpg",
         score: "10/20",
         questions: ["1. Lorem", "2.Impsum", "3.Dolor"],
         answers: ["1. Lorem", "2.Impsum", "3.Dolor"],
@@ -12,7 +12,7 @@ const quizData = [
     {
         id: 2,
         qName: "Seatwork 2",
-        img: "/public/images/placeholder.jpg",
+        img: "/images/placeholder.jpg",
         score: "10/20",
         questions: ["1. Lorem", "2.Impsum", "3.Dolor"],
         answers: ["1. Lorem", "2.Impsum", "3.Dolor"],
@@ -21,7 +21,7 @@ const quizData = [
     {
         id: 3,
         qName: "Seatwork 3",
-        img: "/public/images/placeholder.jpg",
+        img: "/images/placeholder.jpg",
         score: "10/20",
         questions: ["1. Lorem", "2.Impsum", "3.Dolor"],
         answers: ["1. Lorem", "2.Impsum", "3.Dolor"],
