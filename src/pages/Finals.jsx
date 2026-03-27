@@ -18,7 +18,7 @@ function Finals(){
                     </ul>
                 </div> */}
                 </div>
-                <div className="construction">
+                <div className="construction mt-4">
                     <div className="header w-[95vw] h-[85vh] m-auto bg-[url('/public/images/construct.jpg')] bg-center rounded-3xl border-brown1-cus border-4 overflow-hidden">
                             <div className="actHeader w-full h-full backdrop-blur-[3px] flex items-center justify-center flex-col">
                                 <div className="headerLabel text-center z-1 flex flex-col ">
