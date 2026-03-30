@@ -9,7 +9,7 @@ function Midterms(){
         <>
         <div className="main">
             <div className="mainBody m-auto bg-brown1-cus rounded-3xl p-2 w-[96vw]" >
-                <h1 className="text-7xl font-bold text-center max-[400px]:text-[2.6rem]">Midterm Compilation</h1>
+                <h1 className="text-7xl font-bold text-center max-[500px]:text-[2.6rem]">Midterm Compilation</h1>
                 <p className="text-center text-2xl mt-5 w-[90vw] m-auto">
                     This Consists of All Quizzes, Seatwork, Activities and Exam during Our Midterms.
                 </p>

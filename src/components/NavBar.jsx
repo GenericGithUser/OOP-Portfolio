@@ -29,7 +29,7 @@ function NavBar(){
             
         </div>
         <div className={`flex flex-col links gap-10 items-center text-2xl justify-center bg-green5-cus/90 p-1 rounded-2xl absolute z-20 transition-all duration-200 ease-in-out overflow-hidden w-0 h-screen ${
-            isOpen ? ' w-max opacity-100' : ' opacity-0 left-0'
+            isOpen ? ' w-max opacity-100 pointer-events-auto' : ' opacity-0 left-0 none pointer-events-none'
             }`}>
                 <NavLink onClick={()=> setIsOpen(false)} className={({isActive})=> `text-green4-cus hover:bg-amber-200 p-0.5 rounded-2xl transition-all duration-75 ${isActive ? 'bg-amber-500 p-0.5': ''} ` }  to="/">Home</NavLink>
                 <NavLink onClick={()=> setIsOpen(false)} className={({isActive})=> `text-green4-cus hover:bg-amber-200 p-0.5 rounded-2xl transition-all duration-75 ${isActive ? 'bg-amber-500 p-0.5': ''}` } to="/midterms">Midterms</NavLink>

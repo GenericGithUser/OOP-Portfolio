@@ -25,7 +25,7 @@ function Contact(){
                         <div className="contactNumber flex justify-center">
                            <div className="con flex gap-2">
                              <FaPhone size={40} color="#005F02"/> 
-                             <p className="text-3xl">0956 220 9603</p>
+                             <a className="text-3xl underline text-amber-950" href="tel:09562209603">0956 220 9603</a>
                            </div>
                         </div>
 
