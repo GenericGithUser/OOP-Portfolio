@@ -42,7 +42,7 @@ function Midterms(){
                     <h2 className="text-5xl font-bold text-center mb-2">Midterm Activities</h2>
                     <div className="quizCont flex flex-col w-full items-center gap-3 ">
                         {actData.map((act)=>(
-                            <CodeActItem name={act.name} source={act.source} score={act.score} screenshots={act.screnshots} info={act.info}></CodeActItem>
+                            <CodeActItem name={act.name} source={act.source} score={act.score} screenshots={act.screnshots} info={act.info} labels={act.labels} ></CodeActItem>
                         ))} 
                     </div>
             </div>

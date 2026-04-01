@@ -9,7 +9,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 
-function CodeActItem({ name, source, score, screenshots, info }){
+function CodeActItem({ name, source, score, screenshots, info, labels }){
     const [content, setContent] = useState("");
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
@@ -63,7 +63,14 @@ function CodeActItem({ name, source, score, screenshots, info }){
                   ></Page>
                 </Document>
                 <div className="pageNav text-center">
-                  <a href={screenshots} target="_blank" rel="noopener noreferrer" className="text-xl font-bold underline text-amber-950">Open in New Tab?</a>
+                  <a
+                    href={screenshots}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl font-bold underline text-amber-950"
+                  >
+                    Open in New Tab?
+                  </a>
                   <p>
                     Page {pageNumber} of {numPages}{" "}
                   </p>
@@ -91,16 +98,19 @@ function CodeActItem({ name, source, score, screenshots, info }){
                 <h1 className="title font-bold text-2xl text-center">
                   Screenshots:
                 </h1>
-                <div className="screenShotBox mb-5 grid grid-auto-cols grid-flow-col">
+                <div className="screenShotBox mb-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-[500px]:grid-cols-1">
                   {/* <img src={screenshots} alt="missing" className="w-[30vw] border-3 border-amber-200 rounded-3xl"/> */}
-                  {screenshots.map((x) => (
-                    <a href={x} target="_blank">
-                      <img
-                        src={x}
-                        alt="missing"
-                        className="w-[30vw] border-3 border-amber-200 rounded-3xl max-[800px]:v-[70vw] max-[500px]:w-screen"
-                      />
-                    </a>
+                  {screenshots.map((x, index) => (
+                    <div className="imgBox">
+                      <a href={x} target="_blank">
+                        <img
+                          src={x}
+                          alt="missing"
+                          className="w-[30vw] border-3 border-amber-200 rounded-3xl max-[800px]:v-[70vw] max-[500px]:w-screen"
+                        />
+                      </a>
+                      <p className="text-center font-bold text-brown1-cus">{labels[index]}</p>
+                    </div>
                   ))}
                 </div>
               </div>
