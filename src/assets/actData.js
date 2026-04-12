@@ -51,6 +51,22 @@ const quizData = [
             "User Pays Tuition Fee – Fully Paid", "User Tries to interact with other options while Fully Paid", "User Exits - Fully Paid", "User Exits – Not Fully Paid"
         ],
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        id: 5,
+        name: "Activity #5 - Expense Tracker",
+        source: "/codeStuff/ExpenseTrackerAbril.java",
+        score: "10/20",
+        screnshots: ["/images/ss/act5/MenuValid.png", "/images/ss/act5/AddBudget-Valid.png", "/images/ss/act5/AddBudget-MoreValid.png", "/images/ss/act5/AddBudget-MoreB.png", "/images/ss/act5/AddBudget-Exit.png",
+            "/images/ss/act5/AddExpenses-NoB.png", "/images/ss/act5/AddExpenses-Valid.png", "/images/ss/act5/AddExpenses-More.png", "/images/ss/act5/DisExpense-NoE.png", "/images/ss/act5/DisExpense-BO.png", "/images/ss/act5/DisExpense-BS.png", 
+            "/images/ss/act5/AddExpCat-Valid.png", "/images/ss/act5/AddExpCat-Add.png", "/images/ss/act5/AddExpenses-NewCat.png", "/images/ss/act5/AddExpenses-OnlyLatest.png", "/images/ss/act5/COB-NoB.png", "/images/ss/act5/COB.png",
+            "/images/ss/act5/Exit.png"
+        ],
+        labels: ["Menu – Input Validation", "Add Budget – User Inputs Blank and Enters Budget", "Add Budget – Add More Input Validation", "Add Budget – User Adds More Budget", "Add Budget – User Exits Add Budget", 
+            "Add Expenses – When there is No Budget Yet", "Add Expenses – Initial Input of Expenses with Some Input Validation", "Add Expenses – User Adds More Expenses", "Display Expenses – When there is No Expenses", 
+            "Display Expenses – Budget Overrun", "Display Expenses – Budget is Sufficient", "Add Expense Category – Input Validation", "Add Expense Category – Category Added", "Add Expenses – Option that Pops Out when another Expense Category is added", 
+            "Add Expenses – Modify Only latest addition", "Compute for Remaining Budget – When there is no Budget or Expenses", "Compute for Remaining Budget", "Program Exit"],
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
     
     
