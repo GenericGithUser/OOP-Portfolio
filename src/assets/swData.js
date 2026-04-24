@@ -4,29 +4,21 @@ const quizData = [
         id: 1,
         qName: "Seatwork 1",
         img: "/images/placeholder.jpg",
-        score: "10/20",
+        score: "26/20",
         questions: ["1. Lorem", "2.Impsum", "3.Dolor"],
         answers: ["1. Lorem", "2.Impsum", "3.Dolor"],
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        info: "On this Seatwork, we tackled how to trace bitwise operations that are happening."
     },
     {
         id: 2,
         qName: "Seatwork 2",
         img: "/images/placeholder.jpg",
-        score: "10/20",
+        score: "--/30",
         questions: ["1. Lorem", "2.Impsum", "3.Dolor"],
         answers: ["1. Lorem", "2.Impsum", "3.Dolor"],
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        info: "On this seatwork, we were tasked to write a Simple Menu Program in paper for a Scholarship Application, we used nested if statements, loops and switches."
     },
-    {
-        id: 3,
-        qName: "Seatwork 3",
-        img: "/images/placeholder.jpg",
-        score: "10/20",
-        questions: ["1. Lorem", "2.Impsum", "3.Dolor"],
-        answers: ["1. Lorem", "2.Impsum", "3.Dolor"],
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    }
+    
 ]
 
 export default quizData;
