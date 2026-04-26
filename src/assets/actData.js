@@ -3,9 +3,9 @@
 const quizData = [
     {
         id: 1,
-        name: "Activity #1 - Variables",
+        name: "Activity #1 - Introduction to Java",
         source: "none",
-        score: "--/30",
+        score: "30/30",
         screnshots: "/pdf/act1.pdf",
         labels: "none",
         info: "The First activity was about variable identification and what a specific code block does. It has 3 parts, Part A was the variable identification, and it made me learn more about the differences in variable storage and how their type and data type affects those. Part B was more on the code block and determining what happens first without outputs. It made me think deeper of what is happening under the hood when an object instance is declared, and how it affect their memory use. Last part was the outputs of Part B, nothing much to say about it as looking at Part B explains what happened here."

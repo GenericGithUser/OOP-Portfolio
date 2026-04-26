@@ -48,9 +48,9 @@ function Midterms(){
             </div>
             <div className="midtermAct mt-5 m-auto bg-brown1-cus rounded-3xl p-2 w-[96vw]" id="mExam">
                     <h2 className="text-5xl font-bold text-center mb-2">Midterm Exam</h2>
-                    <img src="/images/placeholder.jpg" className="w-[20vw] rounded-full border-8 border-green-950 mb-5 m-auto" />
-                    <div className="textArea m-auto w-[60vw] rounded-3xl bg-green1-cus p-4">
-                        <p>Exams still hasn't been returned meaning there is still no scores, so reflection:</p>
+                    <img src="/images/placeholder.jpg" className="w-[20vw] rounded-full border-8 border-green-950 mb-5 m-auto max-[800px]:w-[40vw] max-[500px]:w-[70vw]" />
+                    <div className="textArea m-auto w-[80vw] rounded-3xl bg-green1-cus p-4">
+                        <p className="font-extrabold">Exams still hasn't been returned meaning there is still no scores, so reflection:</p>
                         <p>The Exams was somewhat easy, even the fill in the blanks part, the bitwise part though was kinda hard as I have forgotten to review it again.</p>
                         <p>Aside from that It was somewhat easy, though easiness is kinda off putting, considering its a 100 point exam, but I guess we'll see if the easiness is really something.</p>
                     </div>
