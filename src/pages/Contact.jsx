@@ -6,7 +6,7 @@ function Contact(){
     return(
         <>
         <div className="main">
-            <div className="header w-[98vw] max-[500px]:h-screen h-[85vh] m-auto bg-[url('./assets/bg.jpg')] bg-center bg-cover rounded-3xl border-brown1-cus border-4 overflow-hidden">
+            <div className="header w-[98vw] max-[500px]:h-screen h-[87.5vh] m-auto bg-[url('./assets/bg.jpg')] bg-center bg-cover rounded-3xl border-brown1-cus border-4 overflow-hidden">
                 <div className="actHeader w-full h-full backdrop-blur-[3px] flex items-center justify-center flex-col">
                     <div className="card w-[60vw] bg-brown1-cus/75 p-2 rounded-3xl max-[500px]:w-[85vw]">
                         <h1 className="text-5xl font-bold text-center ">Contact</h1>

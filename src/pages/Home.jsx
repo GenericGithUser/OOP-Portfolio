@@ -15,9 +15,9 @@ function Home(){
             <div className="body bg-brown1-cus w-[98vw] m-auto p-2 mt-3 rounded-3xl">
                 <div className="topText text-center">
                     <h1 className="text-7xl font-bold">Hello!</h1>
-                    <h2 className="text-6xl wrap-normal max-[400px]:text-5xl">I am <span className="text-green3-cus font-bold">Gianmarlo Adrian S. Abril</span></h2>
-                    <h2 className="text-5xl wrap-normal max-[400px]:text-4xl">My Course is: <span className="text-green3-cus font-bold">Object Oriented Programming</span></h2>
-                    <h2 className="text-5xl wrap-normal max-[400px]:text-4xl">School / Section: <span className="text-green3-cus font-bold">Polytechnic University of the Philippines/ BSIT 2-1N</span></h2>
+                    <h2 className="text-5xl wrap-normal max-[400px]:text-5xl">I am <span className="text-green3-cus font-bold underline">Gianmarlo Adrian S. Abril</span></h2>
+                    <h2 className="text-4xl wrap-normal max-[400px]:text-4xl">My Course is: <span className="text-green3-cus font-bold underline">Object Oriented Programming</span></h2>
+                    <h2 className="text-4xl wrap-normal max-[400px]:text-4xl">School / Section: <span className="text-green3-cus font-bold underline">Polytechnic University of the Philippines / BSIT 2-1N</span></h2>
                 </div>
                 <p className="text-center text-2xl mt-5 w-[90vw] m-auto">
                     This e-portfolio presents my Midterm Project in Object-Oriented Programming using React. It
