@@ -4,7 +4,7 @@ const quizData = [
         id: 1,
         qName: "Seatwork 1",
         img: "/images/placeholder2.jpg",
-        score: "26/20",
+        score: "26/30",
         questions: ["Not Available"],
         answers: ["Not Available"],
         info: "On this Seatwork, we tackled how to trace bitwise operations that are happening by following 4 variables, and watch them either increment, decrement or change with other bitwise operators."
