@@ -3,9 +3,9 @@
 const quizData = [
     {
         id: 1,
-        name: "Activity #1 - Introduction to Java",
+        name: "Activity #1 - Variables",
         source: "none",
-        score: "30/30",
+        score: "27/30",
         screnshots: "/pdf/act1.pdf",
         labels: "none",
         info: "The First activity was about variable identification and what a specific code block does. It has 3 parts, Part A was the variable identification, and it made me learn more about the differences in variable storage and how their type and data type affects those. Part B was more on the code block and determining what happens first without outputs. It made me think deeper of what is happening under the hood when an object instance is declared, and how it affect their memory use. Last part was the outputs of Part B, nothing much to say about it as looking at Part B explains what happened here."
@@ -14,7 +14,7 @@ const quizData = [
         id: 2,
         name: "Activity #2 - Operators",
         source: "none",
-        score: "--/30",
+        score: "30/30",
         screnshots: "/pdf/act2.pdf",
         labels: "none",
         info: "The Second Activity has more coding stuff. It was all about applying variable manipulation using operators and also of course bitwise operators. The first 2 Numbers were not that hard as it is just simple application of Operators. But the 3rd one was much more harder, as it would make you think about what and what to use due to the amount of restrictions. But it made me reflect on how to use the operators to my own doing while also following specific restrictions."
@@ -23,7 +23,7 @@ const quizData = [
         id: 3,
         name: "Activity #3 - ATM",
         source: "/codeStuff/SecureATMSystemAbril.java",
-        score: "--/30",
+        score: "27/30",
         screnshots: ["/images/ss/act3/3-Winput.png", "/images/ss/act3/3-Cinput.png", "/images/ss/act3/3-Blocked.png", "/images/ss/act3/3-Choice.png",
             "/images/ss/act3/3-CBal.png", "/images/ss/act3/3-DepMon.png", "/images/ss/act3/3-DepMon0.png"
         ],
@@ -37,7 +37,7 @@ const quizData = [
         id: 4,
         name: "Activity #4 - SPS",
         source: "/codeStuff/StudentPaymentSystemAbril.java",
-        score: "--/30",
+        score: "27/30",
         screnshots: ["/images/ss/act4/4-InputNName.png", "/images/ss/act4/4-InputNID.png", "/images/ss/act4/4-InputWTFee.png", "/images/ss/act4/4-Input0TFee.png",
             "/images/ss/act4/4-SInput.png", "/images/ss/act4/4-BInput.png", "/images/ss/act4/4-InChoice.png", "/images/ss/act4/4-P-In0Pay.png", "/images/ss/act4/4-CBal.png", "/images/ss/act4/4-ADisc.png",
             "/images/ss/act4/4-ADisc-Sc.png", "/images/ss/act4/4-ADisc-Rs.png", "/images/ss/act4/4-ADiscBlock.png", "/images/ss/act4/4-ADisc-WChoice.png",
@@ -56,7 +56,7 @@ const quizData = [
         id: 5,
         name: "Activity #5 - Expense Tracker",
         source: "/codeStuff/ExpenseTrackerAbril.java",
-        score: "--/30",
+        score: "30/30",
         screnshots: ["/images/ss/act5/MenuValid.png", "/images/ss/act5/AddBudget-Valid.png", "/images/ss/act5/AddBudget-MoreValid.png", "/images/ss/act5/AddBudget-MoreB.png", "/images/ss/act5/AddBudget-Exit.png",
             "/images/ss/act5/AddExpenses-NoB.png", "/images/ss/act5/AddExpenses-Valid.png", "/images/ss/act5/AddExpenses-More.png", "/images/ss/act5/DisExpense-NoE.png", "/images/ss/act5/DisExpense-BO.png", "/images/ss/act5/DisExpense-BS.png", 
             "/images/ss/act5/AddExpCat-Valid.png", "/images/ss/act5/AddExpCat-Add.png", "/images/ss/act5/AddExpenses-NewCat.png", "/images/ss/act5/AddExpenses-OnlyLatest.png", "/images/ss/act5/COB-NoB.png", "/images/ss/act5/COB.png",
