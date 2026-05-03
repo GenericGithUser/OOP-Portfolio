@@ -13,7 +13,7 @@ const quizData = [
         id: 2,
         qName: "Seatwork 2",
         img: "/images/placeholder2.jpg",
-        score: "--/30",
+        score: "25/30",
         questions: ["Not Available"],
         answers: ["Not Available"],
         info: "On this seatwork, we were tasked to write a Simple Menu Program in paper for a Scholarship Application, we used nested if statements, loops and switches."
